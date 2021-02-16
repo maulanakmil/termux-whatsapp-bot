@@ -15,21 +15,21 @@ const speed = require('performance-now');
 const apivhtear = 'apikey';
 const apibarbar = 'apikey';
 const tobzkey = 'apikey';
-const BotName = 'Lexa';
-const wa = 'https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst';
+const BotName = 'Mkmil BOT';
+const wa = 'https://chat.whatsapp.com/ESYDxnhJMPI24PmF6qOPaq';
 const eror = 'Info fitur Error';
-const ow = 'Mrf.zvx';
-const nomorowner = '082223014661';
-const ovo = '082223014661';
-const pulsa = '082223014661';
-const dana = '082223014661';
-const instagram = 'http://www.instagram.com/mrf.zvx';
-const aktif = '08:00 - 22:00';
+const ow = 'MaulanAKmil';
+const nomorowner = '082123952125';
+const ovo = '0822123952125';
+const pulsa = '082123952125';
+const dana = '082123952125';
+const instagram = 'http://www.instagram.com/maulanakmil';
+const aktif = '12:00 - 02:00';
 const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mrf.zvx\n' // Nama kamu
-  + 'ORG:Lexa;\n' // Nama bot
-  + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+  + 'FN:MaulanaKmil\n' // Nama kamu
+  + 'ORG:Mkmil BOT;\n' // Nama bot
+  + 'TEL;type=CELL;type=VOICE;waid=628158533202:+62 8221-2395-2125\n' //Nomor whatsapp kamu
   + 'END:VCARD'
 //
 const
@@ -188,7 +188,7 @@ conn.on('message-new', async (m) => {
 
   //kerang ajaib
   if (text.includes('.Apakah')) {
-    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .apakah aku cantik_', MessageType.text, { quoted: m });
+    conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .apakah aku cakep_', MessageType.text, { quoted: m });
   }
   if (text.includes('.Bolehkah')) {
     conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bolehkah aku mencintai dia_', MessageType.text, { quoted: m });
@@ -423,9 +423,9 @@ conn.on('message-new', async (m) => {
  اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ
 _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_
 
-*Pulsa :* _${pulsa}_
-*Dana :* _${dana}_
-*OVO :* _${ovo}_`, MessageType.text, { quoted: m });
+*Pulsa :*082123952125 _${pulsa}_
+*Dana :*082123952125 _${dana}_
+*OVO :*082123952125 _${ovo}_`, MessageType.text, { quoted: m });
   }
 
   //Informasi
@@ -468,10 +468,10 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╠≽️ *Asal Kota*
 ╠≽️ *Gender*
 ╠════════════════════
-║──────── *Lexa* ──────── 
+║──────── *Mkmil BOT* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-║──────── *Lexa* ────────
+║──────── *Mkmil BOT* ────────
 ╠════════════════════
 ╠════════════════════` , MessageType.text);
   }
